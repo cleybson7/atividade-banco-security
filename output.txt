@@ -1,0 +1,134 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.atividade:security-data >---------------------
+[INFO] Building  0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:4.0.6:run (default-cli) > test-compile @ security-data >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ security-data ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] Copying 0 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ security-data ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ security-data ---
+[INFO] skip non existing resourceDirectory /home/souza/Downloads/security-data/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ security-data ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] <<< spring-boot:4.0.6:run (default-cli) < test-compile @ security-data <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:4.0.6:run (default-cli) @ security-data ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v4.0.6)
+
+2026-05-24T17:19:10.465-03:00  INFO 174 --- [security-data] [  restartedMain] c.a.s.SecurityDataApplication            : Starting SecurityDataApplication using Java 21.0.10 with PID 174 (/home/souza/Downloads/security-data/target/classes started by souza in /home/souza/Downloads/security-data)
+2026-05-24T17:19:10.471-03:00  INFO 174 --- [security-data] [  restartedMain] c.a.s.SecurityDataApplication            : No active profile set, falling back to 1 default profile: "default"
+2026-05-24T17:19:10.557-03:00  INFO 174 --- [security-data] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-05-24T17:19:10.558-03:00  INFO 174 --- [security-data] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-05-24T17:19:11.225-03:00  INFO 174 --- [security-data] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-24T17:19:11.293-03:00  INFO 174 --- [security-data] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2026-05-24T17:19:11.297-03:00  INFO 174 --- [security-data] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-24T17:19:11.307-03:00  INFO 174 --- [security-data] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 1 JPA repository interface.
+2026-05-24T17:19:12.394-03:00  INFO 174 --- [security-data] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-05-24T17:19:12.419-03:00  INFO 174 --- [security-data] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-24T17:19:12.419-03:00  INFO 174 --- [security-data] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-05-24T17:19:12.471-03:00  INFO 174 --- [security-data] [  restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1910 ms
+2026-05-24T17:19:12.690-03:00  INFO 174 --- [security-data] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-24T17:19:12.776-03:00  INFO 174 --- [security-data] [  restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-05-24T17:19:13.427-03:00  INFO 174 --- [security-data] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-24T17:19:13.481-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-24T17:19:15.017-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1984f26f
+2026-05-24T17:19:15.019-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-24T17:19:15.721-03:00  INFO 174 --- [security-data] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://ep-broad-voice-aqrsi449.c-8.us-east-1.aws.neon.tech:5432/neondb?sslmode=require]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 17.10
+	Default catalog/schema: neondb/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-24T17:19:17.062-03:00  INFO 174 --- [security-data] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-24T17:19:17.074-03:00  INFO 174 --- [security-data] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-24T17:19:17.117-03:00  INFO 174 --- [security-data] [  restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-05-24T17:19:17.149-03:00  INFO 174 --- [security-data] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-24T17:19:17.151-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-05-24T17:19:17.486-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn0: url=jdbc:h2:file:./data/security_data_db user=SA
+2026-05-24T17:19:17.487-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-05-24T17:19:17.506-03:00  INFO 174 --- [security-data] [  restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:h2:file:./data/security_data_db]
+	Database driver: H2 JDBC Driver
+	Database dialect: H2Dialect
+	Database version: 2.4.240
+	Default catalog/schema: SECURITY_DATA_DB/PUBLIC
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 100
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-24T17:19:17.581-03:00  INFO 174 --- [security-data] [  restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-24T17:19:17.582-03:00  INFO 174 --- [security-data] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-24T17:19:17.698-03:00  INFO 174 --- [security-data] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-05-24T17:19:18.169-03:00  WARN 174 --- [security-data] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-24T17:19:18.721-03:00  INFO 174 --- [security-data] [  restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-05-24T17:19:18.731-03:00  INFO 174 --- [security-data] [  restartedMain] c.a.s.SecurityDataApplication            : Started SecurityDataApplication in 8.98 seconds (process running for 9.674)
+=== Gerenciador de Notas ===
+
+Escolha uma opção:
+1. Criar Nota
+2. Listar Notas
+3. Ver Nota por ID
+4. Deletar Nota
+5. Sair
+Opção: Conteúdo da nota: Prioridade (1-BAIXA, 2-MEDIA, 3-ALTA): 
+Nota criada com sucesso! ID: 5
+
+Escolha uma opção:
+1. Criar Nota
+2. Listar Notas
+3. Ver Nota por ID
+4. Deletar Nota
+5. Sair
+Opção: 
+--- Lista de Notas ---
+ID: 5 | Prioridade: ALTA | Conteudo: Teste H2 Native
+
+Escolha uma opção:
+1. Criar Nota
+2. Listar Notas
+3. Ver Nota por ID
+4. Deletar Nota
+5. Sair
+Opção: Saindo...
+2026-05-24T17:19:19.724-03:00  INFO 174 --- [security-data] [  restartedMain] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-05-24T17:19:19.728-03:00  INFO 174 --- [security-data] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-05-24T17:19:19.733-03:00  INFO 174 --- [security-data] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-24T17:19:19.735-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-05-24T17:19:19.749-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-05-24T17:19:19.749-03:00  INFO 174 --- [security-data] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-05-24T17:19:19.750-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-05-24T17:19:20.452-03:00  INFO 174 --- [security-data] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  13.656 s
+[INFO] Finished at: 2026-05-24T17:19:20-03:00
+[INFO] ------------------------------------------------------------------------
